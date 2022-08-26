@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ChoosePlanet from "./ChoosePlanet";
+import Pfive from "./P5";
+import React, { useState } from "react";
 
 function App() {
+  const [Planet, setPlanet] = useState("Earth");
+  const [PlanetMass, setPlanetMass] = useState(5.972e24);
+  const [PlanetRadius, setPlanetRadius] = useState(6371e3);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Pfive
+        Planet={Planet}
+        PlanetMass={PlanetMass}
+        PlanetRadius={PlanetRadius}
+      ></Pfive>
+      <ChoosePlanet
+        setPlanet={setPlanet}
+        setPlanetMass={setPlanetMass}
+        setPlanetRadius={setPlanetRadius}
+      ></ChoosePlanet>
     </div>
   );
 }
