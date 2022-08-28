@@ -1,10 +1,58 @@
 [
-  { "name": "Mercury", "m": 3.285e23, "r": 2440e3, "v": 0 },
-  { "name": "Venus", "m": 4.867e24, "r": 6052e3, "v": 1 },
-  { "name": "Earth", "m": 5.972e24, "r": 6371e3, "v": 2 },
-  { "name": "Mars", "m": 6.39e23, "r": 3390e3, "v": 3 },
-  { "name": "Jupiter", "m": 1.898e27, "r": 69911e3, "v": 4 },
-  { "name": "Saturn", "m": 5.683e26, "r": 58232e3, "v": 5 },
-  { "name": "Uranus", "m": 8.681e25, "r": 25362e3, "v": 6 },
-  { "name": "Neptune", "m": 1.024e26, "r": 24622e3, "v": 7 }
+  {
+    "name": "Mercury",
+    "m": 3.285e23,
+    "r": 2440e3,
+    "v": 0,
+    "photo": "https://astroclips.com/wp-content/uploads/2020/03/image4.jpg"
+  },
+  {
+    "name": "Venus",
+    "m": 4.867e24,
+    "r": 6052e3,
+    "v": 1,
+    "photo": "https://media.wired.com/photos/5fd7d0d255d4309f339343b4/master/pass/Sec_Venus_PIA00106.jpg"
+  },
+  {
+    "name": "Earth",
+    "m": 5.972e24,
+    "r": 6371e3,
+    "v": 2,
+    "photo": "https://media.timeout.com/images/105875404/image.jpg"
+  },
+  {
+    "name": "Mars",
+    "m": 6.39e23,
+    "r": 3390e3,
+    "v": 3,
+    "photo": "https://www.worldatlas.com/upload/bb/c3/32/shutterstock-1041249343.jpg"
+  },
+  {
+    "name": "Jupiter",
+    "m": 1.898e27,
+    "r": 69911e3,
+    "v": 4,
+    "photo": "https://cdn.vox-cdn.com/thumbor/J85lBLditBHKUEguiZh8rPEmWqg=/0x0:3805x1288/1200x675/filters:focal(1599x340:2207x948)/cdn.vox-cdn.com/uploads/chorus_image/image/59799667/pia21974.0.jpg"
+  },
+  {
+    "name": "Saturn",
+    "m": 5.683e26,
+    "r": 58232e3,
+    "v": 5,
+    "photo": "https://media.wnyc.org/i/1200/627/80/nprproxy/386873194"
+  },
+  {
+    "name": "Uranus",
+    "m": 8.681e25,
+    "r": 25362e3,
+    "v": 6,
+    "photo": "https://cdna.artstation.com/p/assets/images/images/013/192/632/large/yanixss-00-space-night.jpg?1538494236"
+  },
+  {
+    "name": "Neptune",
+    "m": 1.024e26,
+    "r": 24622e3,
+    "v": 7,
+    "photo": "https://cdn.myportfolio.com/f5804a9b301211afd433759c454d8c55/92042ba1-1d34-4b42-a66f-a27fc5f3f872_rw_3840.jpg?h=9865d35f6b56ed7540e9e83f29145e50"
+  }
 ]
