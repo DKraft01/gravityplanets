@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gravityplanets/static/css/main.765caced.css",
+    "main.js": "/gravityplanets/static/js/main.aedec50e.js",
+    "static/media/image.jpg": "/gravityplanets/static/media/image.dc01dbd3e2cc97cbb42d.jpg",
+    "index.html": "/gravityplanets/index.html",
+    "main.765caced.css.map": "/gravityplanets/static/css/main.765caced.css.map",
+    "main.aedec50e.js.map": "/gravityplanets/static/js/main.aedec50e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.765caced.css",
+    "static/js/main.aedec50e.js"
+  ]
+}
